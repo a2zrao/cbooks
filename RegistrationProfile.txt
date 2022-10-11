@@ -1,0 +1,54 @@
+<form action="action_page.php">
+<style>
+body {
+  background-image: url('C:\Users\USER\Desktop');
+}
+</style>
+  <div class="container">
+    <h1>Profile</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+     
+     
+     <label for="email"><b>User Name</b></label>
+     <input type="text" placeholder="Enter Name" required></br>
+     </br>
+
+     <label for="email"><b>Email</b></label>
+     <input type="text" placeholder="Enter Email" name="email" id="email" required> </br>
+     </br>
+
+     <label for="phone"><b>Phone No</b></label>
+     <input type="text" placeholder="Enter Phone"  required> </br>
+     </br>
+
+     <label for="Gender"><b>Gender</b></label>
+     <input type="text" placeholder="Enter Gender" required> </br>
+     </br>
+     <label for="psw"><b>Password</b></label>
+     <input type="password" placeholder="Enter Password" name="psw" id="psw" required> </br>
+     </br>
+     <label for="City"><b>City</b></label>
+     <input type="text" placeholder="Enter City"  required> </br>
+     </br>
+     <label for="email"><b>State</b></label>
+     <input type="text" placeholder="Enter State"  required> </br>
+     </br>
+  
+     <button type="submit" class="registerbtn">Register</button> </br>
+    </div>
+     </br> 
+    <button type="submit" class="Settings">Settings</button> 
+    </div>
+    
+    <button type="submit" class="Wishlist">Wishlist</button> 
+    </div>
+     
+    <button type="submit" class="Logout">Logout</button> 
+    </div>
+  
+
+    <div class="container signin">
+     <p>Already have an account? <a href="#">Sign in</a>.</p>
+     </div>
+    </form>
