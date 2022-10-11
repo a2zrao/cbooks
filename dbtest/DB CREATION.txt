@@ -1,0 +1,10 @@
+CREATE DATABASE `reg` 
+---
+CREATE TABLE `user`(
+    `id` VARCHAR(15) NOT NULL UNIQUE,
+    `fname` TEXT(55),
+    `lname` TEXT(55),
+    `uname` VARCHAR(55)  PRIMARY KEY,
+    `pass` VARCHAR(8),
+    `time` DATETIME DEFAULT CURRENT_TIMESTAMP
+);
