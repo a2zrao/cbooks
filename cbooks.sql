@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `profile` (
-  `id` varchar(20) NOT NULL,
+  `id` varchar(20) PRIMARY KEY NOT NULL,
   `fname` text DEFAULT NULL,
   `lname` text DEFAULT NULL,
   `gender` tinytext DEFAULT NULL,
@@ -36,7 +36,7 @@ CREATE TABLE `profile` (
   `field` text DEFAULT NULL,
   `email` varchar(255) DEFAULT NULL,
   `pwd` varchar(15) DEFAULT NULL,
-  `phno` int(10) DEFAULT NULL,
+  `phno` bigint(10) DEFAULT NULL,
   `dob` date DEFAULT NULL,
   `user_created` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -46,17 +46,14 @@ CREATE TABLE `profile` (
 --
 
 INSERT INTO `profile` (`id`, `fname`, `lname`, `gender`, `org`, `field`, `email`, `pwd`, `phno`, `dob`, `user_created`) VALUES
-('201801330033', 'Uppada', 'Ananda Rao', 'M', 'CUTM', 'student', '201801330011@cutmap.ac.in', 'erp@13565', 1234567890, '2022-09-28', '2022-09-29 09:34:55');
+('201801330033', 'Uppada', 'Ananda Rao', 'M', 'CUTM', 'student', '201801330011@cutmap.ac.in', 'erp@13565', 7030265684, '2022-09-28', '2022-09-29 09:34:55');
 
 --
 -- Indexes for dumped tables
 --
 
---
--- Indexes for table `profile`
---
-ALTER TABLE `profile`
-  ADD PRIMARY KEY (`id`);
+
+
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
