@@ -20,5 +20,6 @@ This project aims to focus on the present automation status of the college libra
 - [@Prash307](https://www.github.com/Prash307)
 - [@kishore1274](https://www.github.com/kishore1274)
 - [@ghost0207](https://www.github.com/ghost0207)
+- [@priyanka00047](https://www.github.com/priyanka00047)
 
 
