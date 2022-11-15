@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "database-1.cdpvsu40laxq.ap-south-1.rds.amazonaws.com";
+$username = "admin";
+$password = "Cutm123456789";
 $dbname = "cbooks";
 
 // Create connection
