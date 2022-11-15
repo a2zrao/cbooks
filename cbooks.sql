@@ -36,7 +36,7 @@ CREATE TABLE `profile` (
   `field` text DEFAULT NULL,
   `email` varchar(255) DEFAULT NULL,
   `pwd` varchar(15) DEFAULT NULL,
-  `phno` int(10) DEFAULT NULL,
+  `phno` bigint(10) DEFAULT NULL,
   `dob` date DEFAULT NULL,
   `user_created` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
