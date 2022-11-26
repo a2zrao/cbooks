@@ -13,7 +13,7 @@ if(isset($_POST['login'])){
 	if($result){
 		while($row = mysqli_fetch_array($result)){
 			$_SESSION['name']=$user;
-			echo '<script type = "text/javascript"> alert(" Login Successful '.$row['fname'].''.$row['lname'].' ") </script> ';
+			//echo '<script type = "text/javascript"> alert(" Login Successful '.$row['fname'].''.$row['lname'].' ") </script> ';
 			header("location: profile.php");
 		}
 
