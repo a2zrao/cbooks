@@ -1,4 +1,4 @@
-<?php
+
 
 <?php
 $servername = "database-1.cdpvsu40laxq.ap-south-1.rds.amazonaws.com";
@@ -12,7 +12,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-?>
+
 
 session_start();
 
